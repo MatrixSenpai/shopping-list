@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662CAFC924E3D4EC00B96A41 /* SnowflakeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662CAFC824E3D4EC00B96A41 /* SnowflakeTransformer.swift */; };
 		665BC16824E3979A003580E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC16724E3979A003580E5 /* AppDelegate.swift */; };
 		665BC16A24E3979A003580E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC16924E3979A003580E5 /* SceneDelegate.swift */; };
-		665BC16C24E3979A003580E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC16B24E3979A003580E5 /* ViewController.swift */; };
-		665BC16F24E3979A003580E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665BC16D24E3979A003580E5 /* Main.storyboard */; };
 		665BC17124E3979B003580E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665BC17024E3979B003580E5 /* Assets.xcassets */; };
 		665BC17424E3979B003580E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665BC17224E3979B003580E5 /* LaunchScreen.storyboard */; };
+		665BC18024E39CA2003580E5 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC17F24E39CA2003580E5 /* AppStep.swift */; };
+		665BC18224E39CCB003580E5 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18124E39CCB003580E5 /* AppFlow.swift */; };
+		665BC18624E39E6E003580E5 /* AllListsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18524E39E6E003580E5 /* AllListsController.swift */; };
+		665BC18824E39E90003580E5 /* AllListsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18724E39E90003580E5 /* AllListsModel.swift */; };
+		665BC18B24E39E9E003580E5 /* Reusable+SL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18A24E39E9E003580E5 /* Reusable+SL.swift */; };
+		665BC18D24E39EAC003580E5 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18C24E39EAC003580E5 /* BaseModel.swift */; };
+		665BC19024E39EC9003580E5 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BC18F24E39EC9003580E5 /* AppServices.swift */; };
+		665BC19324E39FD7003580E5 /* shopping-list-model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665BC19124E39FD7003580E5 /* shopping-list-model.xcdatamodeld */; };
+		66733BC424E3CE2600250ADE /* AllListsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66733BC324E3CE2600250ADE /* AllListsController.storyboard */; };
+		66733BCB24E3CF9E00250ADE /* Font Awesome 5 Pro-Light-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66733BC724E3CF9E00250ADE /* Font Awesome 5 Pro-Light-300.otf */; };
+		66733BCC24E3CF9E00250ADE /* Font Awesome 5 Pro-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66733BC824E3CF9E00250ADE /* Font Awesome 5 Pro-Regular-400.otf */; };
+		66733BCD24E3CF9E00250ADE /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66733BC924E3CF9E00250ADE /* Font Awesome 5 Brands-Regular-400.otf */; };
+		66733BCE24E3CF9E00250ADE /* Font Awesome 5 Pro-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66733BCA24E3CF9E00250ADE /* Font Awesome 5 Pro-Solid-900.otf */; };
+		66733BD024E3CFEA00250ADE /* FontAwesome+SL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66733BCF24E3CFEA00250ADE /* FontAwesome+SL.swift */; };
+		66FFACCB24E3DCB10042C9C6 /* CreateListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFACCA24E3DCB10042C9C6 /* CreateListController.swift */; };
+		66FFACCD24E3DCB70042C9C6 /* CreateListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFACCC24E3DCB70042C9C6 /* CreateListModel.swift */; };
+		A688F60C89AA2923D4CB723E /* Pods_shopping_list.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116D5CE965C1834946F769A /* Pods_shopping_list.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C78C51F0CABFDF5947012FC /* Pods-shopping-list.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopping-list.release.xcconfig"; path = "Target Support Files/Pods-shopping-list/Pods-shopping-list.release.xcconfig"; sourceTree = "<group>"; };
+		662CAFC824E3D4EC00B96A41 /* SnowflakeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowflakeTransformer.swift; sourceTree = "<group>"; };
 		665BC16424E3979A003580E5 /* shopping-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shopping-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		665BC16724E3979A003580E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665BC16924E3979A003580E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		665BC16B24E3979A003580E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		665BC16E24E3979A003580E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		665BC17024E3979B003580E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665BC17324E3979B003580E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		665BC17524E3979B003580E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665BC17F24E39CA2003580E5 /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		665BC18124E39CCB003580E5 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		665BC18524E39E6E003580E5 /* AllListsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsController.swift; sourceTree = "<group>"; };
+		665BC18724E39E90003580E5 /* AllListsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsModel.swift; sourceTree = "<group>"; };
+		665BC18A24E39E9E003580E5 /* Reusable+SL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reusable+SL.swift"; sourceTree = "<group>"; };
+		665BC18C24E39EAC003580E5 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		665BC18F24E39EC9003580E5 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		665BC19224E39FD7003580E5 /* shopping-list-model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "shopping-list-model.xcdatamodel"; sourceTree = "<group>"; };
+		66733BC324E3CE2600250ADE /* AllListsController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllListsController.storyboard; sourceTree = "<group>"; };
+		66733BC724E3CF9E00250ADE /* Font Awesome 5 Pro-Light-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Pro-Light-300.otf"; path = "FontAwesome/otfs/Font Awesome 5 Pro-Light-300.otf"; sourceTree = SOURCE_ROOT; };
+		66733BC824E3CF9E00250ADE /* Font Awesome 5 Pro-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Pro-Regular-400.otf"; path = "FontAwesome/otfs/Font Awesome 5 Pro-Regular-400.otf"; sourceTree = SOURCE_ROOT; };
+		66733BC924E3CF9E00250ADE /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/otfs/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = SOURCE_ROOT; };
+		66733BCA24E3CF9E00250ADE /* Font Awesome 5 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Pro-Solid-900.otf"; path = "FontAwesome/otfs/Font Awesome 5 Pro-Solid-900.otf"; sourceTree = SOURCE_ROOT; };
+		66733BCF24E3CFEA00250ADE /* FontAwesome+SL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontAwesome+SL.swift"; sourceTree = "<group>"; };
+		66FFACCA24E3DCB10042C9C6 /* CreateListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListController.swift; sourceTree = "<group>"; };
+		66FFACCC24E3DCB70042C9C6 /* CreateListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListModel.swift; sourceTree = "<group>"; };
+		7F899FC6189A9C40C545228F /* Pods-shopping-list.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopping-list.debug.xcconfig"; path = "Target Support Files/Pods-shopping-list/Pods-shopping-list.debug.xcconfig"; sourceTree = "<group>"; };
+		A116D5CE965C1834946F769A /* Pods_shopping_list.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shopping_list.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A688F60C89AA2923D4CB723E /* Pods_shopping_list.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32AC1A49A82584E3A59F5188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A116D5CE965C1834946F769A /* Pods_shopping_list.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		665BC15B24E3979A003580E5 = {
 			isa = PBXGroup;
 			children = (
 				665BC16624E3979A003580E5 /* shopping-list */,
 				665BC16524E3979A003580E5 /* Products */,
+				B2721AE7004ED803F8A0E48B /* Pods */,
+				32AC1A49A82584E3A59F5188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +103,125 @@
 			children = (
 				665BC16724E3979A003580E5 /* AppDelegate.swift */,
 				665BC16924E3979A003580E5 /* SceneDelegate.swift */,
-				665BC16B24E3979A003580E5 /* ViewController.swift */,
-				665BC16D24E3979A003580E5 /* Main.storyboard */,
+				665BC17D24E39A82003580E5 /* Core */,
+				665BC17C24E39A7D003580E5 /* Views */,
+				665BC17B24E398AF003580E5 /* Resources */,
+			);
+			path = "shopping-list";
+			sourceTree = "<group>";
+		};
+		665BC17B24E398AF003580E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66733BC624E3CF8200250ADE /* Fonts */,
 				665BC17024E3979B003580E5 /* Assets.xcassets */,
 				665BC17224E3979B003580E5 /* LaunchScreen.storyboard */,
 				665BC17524E3979B003580E5 /* Info.plist */,
+				665BC19124E39FD7003580E5 /* shopping-list-model.xcdatamodeld */,
 			);
-			path = "shopping-list";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		665BC17C24E39A7D003580E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66FFACC924E3DC9E0042C9C6 /* Create */,
+				665BC18424E39E5D003580E5 /* One */,
+				665BC18324E39E59003580E5 /* All */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		665BC17D24E39A82003580E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				66733BF624E3D3F500250ADE /* Models */,
+				665BC18E24E39EC2003580E5 /* Services */,
+				665BC18924E39E96003580E5 /* Bootstrap */,
+				665BC17E24E39C9B003580E5 /* Routing */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		665BC17E24E39C9B003580E5 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				665BC17F24E39CA2003580E5 /* AppStep.swift */,
+				665BC18124E39CCB003580E5 /* AppFlow.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		665BC18324E39E59003580E5 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				665BC18524E39E6E003580E5 /* AllListsController.swift */,
+				66733BC324E3CE2600250ADE /* AllListsController.storyboard */,
+				665BC18724E39E90003580E5 /* AllListsModel.swift */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		665BC18424E39E5D003580E5 /* One */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		665BC18924E39E96003580E5 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				665BC18A24E39E9E003580E5 /* Reusable+SL.swift */,
+				665BC18C24E39EAC003580E5 /* BaseModel.swift */,
+				66733BCF24E3CFEA00250ADE /* FontAwesome+SL.swift */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		665BC18E24E39EC2003580E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				665BC18F24E39EC9003580E5 /* AppServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66733BC624E3CF8200250ADE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				66733BC924E3CF9E00250ADE /* Font Awesome 5 Brands-Regular-400.otf */,
+				66733BC724E3CF9E00250ADE /* Font Awesome 5 Pro-Light-300.otf */,
+				66733BC824E3CF9E00250ADE /* Font Awesome 5 Pro-Regular-400.otf */,
+				66733BCA24E3CF9E00250ADE /* Font Awesome 5 Pro-Solid-900.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		66733BF624E3D3F500250ADE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				662CAFC824E3D4EC00B96A41 /* SnowflakeTransformer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66FFACC924E3DC9E0042C9C6 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				66FFACCA24E3DCB10042C9C6 /* CreateListController.swift */,
+				66FFACCC24E3DCB70042C9C6 /* CreateListModel.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		B2721AE7004ED803F8A0E48B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F899FC6189A9C40C545228F /* Pods-shopping-list.debug.xcconfig */,
+				1C78C51F0CABFDF5947012FC /* Pods-shopping-list.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 665BC17824E3979B003580E5 /* Build configuration list for PBXNativeTarget "shopping-list" */;
 			buildPhases = (
+				A92A30B4112D3B2D21A4629A /* [CP] Check Pods Manifest.lock */,
 				665BC16024E3979A003580E5 /* Sources */,
 				665BC16124E3979A003580E5 /* Frameworks */,
 				665BC16224E3979A003580E5 /* Resources */,
+				FF3C7982EBE8099919B622FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,21 +283,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66733BCB24E3CF9E00250ADE /* Font Awesome 5 Pro-Light-300.otf in Resources */,
+				66733BCE24E3CF9E00250ADE /* Font Awesome 5 Pro-Solid-900.otf in Resources */,
+				66733BCD24E3CF9E00250ADE /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				665BC17424E3979B003580E5 /* LaunchScreen.storyboard in Resources */,
 				665BC17124E3979B003580E5 /* Assets.xcassets in Resources */,
-				665BC16F24E3979A003580E5 /* Main.storyboard in Resources */,
+				66733BC424E3CE2600250ADE /* AllListsController.storyboard in Resources */,
+				66733BCC24E3CF9E00250ADE /* Font Awesome 5 Pro-Regular-400.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A92A30B4112D3B2D21A4629A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shopping-list-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3C7982EBE8099919B622FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shopping-list/Pods-shopping-list-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shopping-list/Pods-shopping-list-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shopping-list/Pods-shopping-list-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		665BC16024E3979A003580E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665BC16C24E3979A003580E5 /* ViewController.swift in Sources */,
+				665BC18B24E39E9E003580E5 /* Reusable+SL.swift in Sources */,
+				665BC18624E39E6E003580E5 /* AllListsController.swift in Sources */,
+				662CAFC924E3D4EC00B96A41 /* SnowflakeTransformer.swift in Sources */,
+				665BC18824E39E90003580E5 /* AllListsModel.swift in Sources */,
 				665BC16824E3979A003580E5 /* AppDelegate.swift in Sources */,
+				665BC19324E39FD7003580E5 /* shopping-list-model.xcdatamodeld in Sources */,
+				665BC18224E39CCB003580E5 /* AppFlow.swift in Sources */,
+				665BC18024E39CA2003580E5 /* AppStep.swift in Sources */,
+				665BC19024E39EC9003580E5 /* AppServices.swift in Sources */,
+				66FFACCD24E3DCB70042C9C6 /* CreateListModel.swift in Sources */,
+				665BC18D24E39EAC003580E5 /* BaseModel.swift in Sources */,
+				66733BD024E3CFEA00250ADE /* FontAwesome+SL.swift in Sources */,
+				66FFACCB24E3DCB10042C9C6 /* CreateListController.swift in Sources */,
 				665BC16A24E3979A003580E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +362,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		665BC16D24E3979A003580E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				665BC16E24E3979A003580E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		665BC17224E3979B003580E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +491,13 @@
 		};
 		665BC17924E3979B003580E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F899FC6189A9C40C545228F /* Pods-shopping-list.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
-				INFOPLIST_FILE = "shopping-list/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/shopping-list/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +505,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.matrixstudios.shopping-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		665BC17A24E3979B003580E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C78C51F0CABFDF5947012FC /* Pods-shopping-list.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S4L29QT59;
-				INFOPLIST_FILE = "shopping-list/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/shopping-list/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.matrixstudios.shopping-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +551,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		665BC19124E39FD7003580E5 /* shopping-list-model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				665BC19224E39FD7003580E5 /* shopping-list-model.xcdatamodel */,
+			);
+			currentVersion = 665BC19224E39FD7003580E5 /* shopping-list-model.xcdatamodel */;
+			path = "shopping-list-model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 665BC15C24E3979A003580E5 /* Project object */;
 }

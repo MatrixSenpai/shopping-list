@@ -1,0 +1,61 @@
+PODS:
+  - Eureka (5.2.1)
+  - FontBlaster (5.1.1)
+  - LibSnowflake (1.0.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFlow (2.9.0):
+    - RxCocoa (>= 5.1.1)
+    - RxSwift (>= 5.1.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Eureka
+  - FontBlaster
+  - LibSnowflake
+  - Reusable
+  - RxCocoa
+  - RxFlow
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift`, branch `develop`)
+
+SPEC REPOS:
+  trunk:
+    - Eureka
+    - FontBlaster
+    - LibSnowflake
+    - Reusable
+    - RxCocoa
+    - RxFlow
+    - RxRelay
+
+EXTERNAL SOURCES:
+  RxSwift:
+    :branch: develop
+    :git: https://github.com/ReactiveX/RxSwift
+
+CHECKOUT OPTIONS:
+  RxSwift:
+    :commit: c374481409523f2b43f93d2ed67b1f456257b90d
+    :git: https://github.com/ReactiveX/RxSwift
+
+SPEC CHECKSUMS:
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  FontBlaster: 8897ebdbb4b6ace3ab78c92b665d88c954f19e4a
+  LibSnowflake: 40a1201459f89cb353d7836fa1f2db0dcc0ba149
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxFlow: a7f993ba4791174d414509a0ec03bfeff530a826
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 43b59f31e75a9d559b3bf0cc4e653ca128e60b08
+
+COCOAPODS: 1.10.0.beta.1
